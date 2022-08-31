@@ -1,0 +1,12 @@
+{
+    "remeras":[
+        {"id": 1, "precio": 2500, "nombre": "Remera-tipo1", "stock":23, "imgurl":"./img/rem_prod.jpg"},
+        {"id": 2, "precio": 2550, "nombre": "Remera-tipo2", "stock":13, "imgurl":"./img/rem_prod2.jpg"},
+        {"id": 3, "precio": 2300, "nombre": "Remera-tipo3", "stock":20, "imgurl":"./img/rem_prod3.jpg"},
+        {"id": 4, "precio": 2600, "nombre": "Remera-tipo4", "stock":20, "imgurl":"./img/rem_prod4.jpg"},
+        {"id": 5, "precio": 2500, "nombre": "Remera-tipo5", "stock":13, "imgurl":"./img/rem_prod5.jpg"},
+        {"id": 6, "precio": 2100, "nombre": "Remera-tipo6", "stock":10, "imgurl":"./img/rem_prod6.jpg"},
+        {"id": 7, "precio": 2100, "nombre": "Remera-tipo7", "stock":23, "imgurl":"./img/rem_prod7.jpg"},
+        {"id": 8, "precio": 1500, "nombre": "Remera-tipo8", "stock":23, "imgurl":"./img/rem_prod8.jpg"}
+    ]
+}

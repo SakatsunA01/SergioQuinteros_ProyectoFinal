@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar_redes">
+                <ul class="navbar_redes_links">
+                    <li>
+                        <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="navbar_pages">
+                <ul class="navbar_pages_links">
+                    <li>
+                        <a href="./pages/productos.html">Productos</a>
+                    </li>
+                    <li>
+                        <a href="">Ofertas</a>
+                    </li>
+                    <li id="Logo">
+                        <a href="./index.html">LOGO</a>
+                    </li>
+                    <li>
+                        <a href="">Novedades</a>
+                    </li>
+                    <li>
+                        <a href="">Sobre Nosotros</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="navbar_carrito">
+                <ul class="navbar_carrito_links">
+                    <li>
+                        <a href="./pages/carrito.html"><i class="fa-solid fa-cart-arrow-down"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-solid fa-location-dot"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="carrousel">
+        <div class="carrousel_img">
+            <img src="./img/40_carrousel.jpg" alt="img">
+            <img src="./img/off_carrousel.jpg" alt="img">
+            <img src="./img/super_carrousel.jpg" alt="img">
+        </div>
+        <ul class="puntos">
+            <li class="punto activo"></li>
+            <li class="punto activo"></li>
+            <li class="punto activo"></li>
+        </ul>
+    </section>
+
+    <main>
+        <section class="top3">
+            <div class="top3_remeras">
+                <img src="./img/rem_top3.jpg" alt="">
+                <img src="./img/rem2_top3.jpg" alt="">
+                <img src="./img/rem3_top3.jpg" alt="">
+            </div>
+        </section>
+
+        <section class="productos_h1">
+            <h1>Productos</h1>
+        </section> 
+
+        <section class="productos" id="productos">
+            <!-- se arma con js -->
+        </section>
+
+    </main>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/carrousel.js"></script>
+    <script src="./js/productos.js"></script>
+    <script src="https://kit.fontawesome.com/647f1a57f5.js" crossorigin="anonymous"></script>
+</body>
+</html>

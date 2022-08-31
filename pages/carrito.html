@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title> Carrito |</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar_redes">
+                <ul class="navbar_redes_links">
+                    <li>
+                        <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="navbar_pages">
+                <ul class="navbar_pages_links">
+                    <li>
+                        <a href="./pages/productos.html">Productos</a>
+                    </li>
+                    <li>
+                        <a href="">Ofertas</a>
+                    </li>
+                    <li id="Logo">
+                        <a href="../index.html">LOGO</a>
+                    </li>
+                    <li>
+                        <a href="">Novedades</a>
+                    </li>
+                    <li>
+                        <a href="">Sobre Nosotros</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="navbar_carrito">
+                <ul class="navbar_carrito_links">
+                    <li>
+                        <a href=""><i class="fa-solid fa-cart-arrow-down"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-solid fa-location-dot"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section class="carrito_contenedor">
+            <div>
+                <table id="carrito" class="carrito">
+                    <thead>
+                        <tr class="carrito_productos">
+                            <th>Nombre Producto</th>
+                            <th>Cantidad de Unidades</th>
+                            <th>Precio</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+            <div id="carrito_total">
+                
+            </div>
+            <div class="carrito_botones">
+                <button id="btn_borrar">borrar carrito</button>
+                <button id="btn_comprar">comprar</button>
+            </div>
+        </section>
+    </header>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/carrito.js"></script>
+    <script src="https://kit.fontawesome.com/647f1a57f5.js" crossorigin="anonymous"></script>
+</body>
+</html>
