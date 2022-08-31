@@ -68,6 +68,24 @@
   background-color: #2C3333;
   box-shadow: #26394d 0px 20px 30px -10px; }
 
+.carrito_total {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: #395B64;
+  color: #E7F6F2;
+  font-size: 2rem;
+  padding: 10px 0; }
+  .carrito_total p {
+    padding: 10px 50px;
+    background-color: #2C3333;
+    border-radius: 16px; }
+  .carrito_total h3 {
+    padding: 10px 50px;
+    background-color: #2C3333;
+    border-radius: 16px; }
+
 .carrito {
   width: 100%;
   border-collapse: collapse; }

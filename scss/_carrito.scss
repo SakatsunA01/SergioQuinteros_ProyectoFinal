@@ -6,6 +6,26 @@
     background-color: nth($color2, 1);
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
+.carrito_total{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: nth($color2, 2);
+    color: nth($color2 , 4);
+    font-size: 2rem;
+    padding: 10px 0;
+    p{
+        padding: 10px 50px;
+        background-color: nth($color2, 1);
+        border-radius: 16px;
+    }
+    h3{
+        padding: 10px 50px;
+        background-color: nth($color2, 1);
+        border-radius: 16px;
+    }
+}
 .carrito {
     width: 100%;
     border-collapse: collapse;

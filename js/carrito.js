@@ -32,6 +32,7 @@ for (let ia = 0; ia < sumaCompra.length; ia++) {                        //Recorr
 function mostarTotal(){                                                 //Dibujo el precio total, para mostarle al usuario dentro del html
     let totalCont = document.getElementById("carrito_total")
     let totalMostar = document.createElement("div")
+    totalMostar.className = "carrito_total"
     totalMostar.innerHTML = `
     <h3>Total de la compra</h3>
     <p>${totalCompra}</p>
